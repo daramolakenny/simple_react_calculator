@@ -1,0 +1,71 @@
+* {
+  font-weight: bolder;
+  /* box-shadow: inset; */
+}
+
+body {
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  width: 20rem;
+  height: 20rem;
+  /* background-image: url("flowervast.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  margin-top: 50px;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.container-child {
+  width: 99%;
+  border: 1px solid black;
+}
+
+input {
+  width: 98%;
+  border: none;
+  outline: none;
+  height: 33px;
+}
+
+.insert2 {
+  text-align: right;
+}
+
+.numbtn {
+  width: 65px;
+  height: 62px;
+}
+.numbtn:hover {
+  background-color: #cca;
+}
+
+.btn {
+  width: 62px;
+  height: 62px;
+}
+.btn:hover{
+  background-color: #cca;
+}
+
+.btn2 {
+  width: 191.5px;
+  height: 62px;
+  background-color: #cca;
+}
+.btn2:hover {
+  background-color: rgb(247, 247, 3);
+}
